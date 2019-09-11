@@ -1,6 +1,5 @@
 import cdk = require('@aws-cdk/core');
 import * as lambda from '@aws-cdk/aws-lambda';
-import * as sam from '@aws-cdk/aws-serverless';
 import * as apigateway from '@aws-cdk/aws-apigateway';
 
 export class AwsCdkSampleStack extends cdk.Stack {
